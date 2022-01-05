@@ -108,6 +108,7 @@ table {
 .price {
     text-align: right;
     font-style: italic;
+    color: royalblue;
 }
 
 h3 {
@@ -134,18 +135,35 @@ h3 {
 }
 
 .discount {
+    margin: auto;
+    display: inline;
+}
+.discount .magiamgia{
+    width: 60%;
     border-radius: 10px;
     border: 1px solid #27CBC9;
-    background-color: #F4F7FB
+    background-color: #F4F7FB;
+    display: inline;
 }
 
-.icon {
+.thanhtoan{
+    background-color: #F4F7FB;
+    border-radius: 10px;
+    width: 15%;
+    text-align: center;
+    border-right: 0; border-left: 0;
+}
+.thanhtoan :hover{
+    background-color: darkgray;
+}
+
+.thanhtoan img{
     width: 40px;
     height: 40px;
     text-align: center;
+    margin-top: 10px;
 }
-
-.icon .text {
-    margin: auto;
-    font-weight: bold;
+.thanhtoan p{
+    font-size: 20px;
+    margin: 0;
 }

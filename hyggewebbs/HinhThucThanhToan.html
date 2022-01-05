@@ -29,55 +29,65 @@
     <!-- <input type="text" name="note" class="note"> -->
     <textarea class="note"></textarea>
     <div style="margin-top: 20px">
-        <table width="95%" border="3px">
+        <table width="70%" border="0">
             <tr>
-                <td>
+                <td style="border-right: 0;">
                     <h3>Chi phí tư vấn:</h3>
                 </td>
-                <td class="price" colspan="2">
+                <td class="price" colspan="4" style="border-left: 0;">
                     800.000VNĐ
                 </td>
             </tr>
             <tr>
-                <td width="250px">
+                <td width="250px" style="border-right: 0;">
                     <h3>Mã giảm giá:</h3>
                 </td>
-                <td width="300px">
-                    <div>
-                        <input type="text" name="discount" id="discount" class="discount">
+                <td width="300px" colspan="3" style="border-left: 0;border-right: 0;">
+                    <div class="discount">
+                        <input type="text" name="discount" id="discount" class="magiamgia">
                         <input type="submit" value="Áp dụng" class="btn">
                     </div>
                 </td>
-                <td class="price">
+                <td class="price" style="width: 30%; border-left: 0; color: red;">
                     50.000VNĐ
                 </td>
             </tr>
             <tr>
-                <td>
-                    <h3>Chi phí tư vấn:</h3>
+                <td style="border-right: 0;">
+                    <h3>Tổng chi phí tư vấn:</h3>
                 </td>
-                <td class="price" colspan="2">
+                <td class="price" colspan="4" style="border-left: 0; ">
                     <b>750.000VNĐ</b>
                 </td>
             </tr>
             <tr>
-                <td>
-                    <h3>Hình thức thanh toán:</h3>
+                <td rowspan="2" style="border-right: 0;">
+                    <h3 style="display:inline;">Hình thức thanh toán:</h3>
                 </td>
-                <td>
+                <td class="thanhtoan">
                     <div>
-                        <img src="Images/Bank.png" class="icon">
-                        <p class="icon text">Ngân hàng</p>
+                        <img src="Images/Bank.png">
+                        <p>Ngân hàng</p>
                     </div>
                 </td>
-                <td>
-                    <img src="Images/Bank.png" class="icon">
-                    <p class="text">Ngân hàng</p>
+                <td class="thanhtoan">
+                    <div >
+                        <img src="Images/MoMo_Logo.png">
+                        <p>Momo</p>
+                    </div>
                 </td>
+                <td class="thanhtoan">
+                    <div>
+                        <img src="Images/money.png">
+                        <p>Tiền mặt</p>
+                    </div>
+                </td>
+                <td style="border-left: 0;"></td>
             </tr>
         </table>
+        
+            
     </div>
-
 </body>
 
 </html>
