@@ -1,0 +1,54 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+section {
+    background-color: white;
+}
+
+marquee {
+    background: linear-gradient(90deg, #27CBC9 0%, #0078BD 118.75%);
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+.btnHoanThanh {
+    flex: 1 1 auto;
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    border: none;
+    margin: auto;
+}
+
+.btnHoanThanh:hover {
+    background-position: right center;
+}

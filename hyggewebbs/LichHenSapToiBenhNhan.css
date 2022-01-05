@@ -1,0 +1,120 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.LichHenSapToi {
+    margin-left: 80px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.cardLichHen {
+    width: 300px;
+    height: 240px;
+    background: rgba(244, 247, 251, 1);
+}
+
+.imgBacSi {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.Content1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.DeXuat {
+    margin-left: 80px;
+}
+
+.cardDeXuat {
+    width: 300px;
+    height: 310px;
+    background: rgba(244, 247, 251, 1);
+}
+
+.Content2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.btn{
+    margin-left: 50px;
+}
+
+.radio {
+    position: relative;
+}
+
+
+    .radio input {
+        flex: 1 1 auto;
+        width: auto;
+        height: 100%;
+        border-radius: 10px;
+        padding: 10px 24px;
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+        border: 1px solid rgba(204, 204, 204, 1);
+        margin-top: 20px;
+        text-align: center;
+        appearance: none;
+        margin-right: 10px;
+    }
+
+        .radio input:hover {
+            background-color: rgba(204, 204, 204, 1);
+        }
+
+        .radio input:checked {
+            background: linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
+            color: white;
+        }
+
+        .radio input:before {
+            content: attr(label);
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+        }
+
+
+.GhiChu {
+    margin-left: 80px;
+}
+
+.cardGhiChu {
+    width: 300px;
+    height: 260px;
+    background: rgba(244, 247, 251, 1);
+}

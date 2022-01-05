@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Khảo sát</title>
+    <link rel="stylesheet" type="text/css" href="KhaoSat.css" />
+    <script src="https://kit.fontawesome.com/7b97764c4c.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        /* Hiển thị giá trị mặc định 50 cho thẻ span với id là demo*/
+        output.innerHTML = slider.value;
+        /* cập nhật giá trị hiện tại của ranger slider*/
+        slider.oninput = function() {
+            output.innerHTML = this.value;
+        }
+    </script>
+</head>
+
+<body>
+    <section>
+
+        <iframe src="DanhGiaSucKhoe.html" height="1000px"></iframe>
+
+        <div align="center" style="margin-bottom: 20px;">
+            <input class="btnHoanThanh" type="submit" value="Hoàn thành" onclick="alert('Đã lưu đánh giá sức khỏe của bạn');window.close()">
+        </div>
+
+    </section>
+
+</body>
+
+</html>

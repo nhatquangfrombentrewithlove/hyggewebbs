@@ -1,0 +1,133 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+li,
+a,
+h3,
+span,
+div,
+input,
+textarea,
+button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(244, 247, 251, 1);
+}
+
+.Footer {
+    display: flex;
+    background-color: rgba(244, 247, 251, 1);
+}
+
+.left-box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.followus {
+    align-content: center;
+}
+
+.facebook,
+.instagram {
+    margin: 20px 0 0 0;
+}
+
+.facebook,
+.instagram a {}
+
+.logoFooter {
+    cursor: pointer;
+    width: 100px;
+    height: 69px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.Info {
+    list-style: none;
+}
+
+.Info li a:hover {
+    color: #0078BD;
+}
+
+.appstore {
+    width: 135px;
+    height: 40px;
+}
+
+.googleplay {
+    width: 135px;
+    height: 40px;
+}
+
+.center-box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+    margin-left: 100px;
+}
+
+.right-box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.right-box form input {
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(204, 204, 204, 1);
+    width: 100%
+}
+
+.right-box form textarea {
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid rgba(204, 204, 204, 1);
+    width: 100%;
+}
+
+.btnSend button {
+    flex: 1 1 auto;
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    display: flex;
+    border: none;
+    margin-right: auto;
+}
+
+.btnSend button:hover {
+    background-position: right center;
+}

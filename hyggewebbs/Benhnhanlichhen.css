@@ -1,0 +1,207 @@
+@import url(https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0; 
+  box-sizing: content-box;
+  list-style: none;
+  padding: 0; 
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+
+.containerLeft {
+  width: 30%;
+  background-color: white;
+  margin: 40px;
+}
+
+#lichHen {
+  border: 3px solid rgba(6, 115, 240, 0.2);
+  border-radius: 10px;
+}
+
+.tieuDedivLichHen {
+  padding:10px; 
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+
+.icon1 {
+  size: 32px;
+  padding: 10px;
+}
+.icon2 {
+  size: 32px;
+  padding: 10px;
+}
+
+.tieuDedivLichHen > h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+
+.child-dropdown {
+  display: flex;
+  border-top: 1px solid royalblue;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.child-dropdown > img {
+  max-width: 100%;
+  width: 80px;
+  height: 80px; 
+  border-radius: 30px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+  margin-left: 10px;
+}
+
+.queue-cover {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+  margin-left: 5px;
+}
+
+.queue-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.queue-cover1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.queue-cover1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rating-stars {
+  font-size: 25px;
+  color: #CCCCCC;
+}
+
+.rating-stars .active {
+  color: orange;
+}
+.child-dropdown > div > h4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+}
+
+.child-dropdown > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.batTac{
+   display: none !important; 
+}
+
+
+
+#container {
+  display: flex;
+}
+
+
+.containerRight {
+  width: 58%;
+  border: 2px solid black;
+  margin: 40px;
+  border-radius: 10px;
+}
+
+.canGiua {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.canGiua > h4 {
+  padding: 2px;
+  
+}
+.containerRight > div > img {
+  max-width: 100%;
+  width: 80px;
+  padding: 30px;
+}
+
+
+.thongTinBenhNhan {
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+.thongTinBenhNhan > div > p {
+  padding: 5px;
+}
+
+
+.thoiGian > p {
+  padding: 4px;
+}
+
+.ghiChu {
+  margin: 20px;
+  border: 1px solid black;
+  height: 60px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+
+}
+.btn > button {
+  margin-right: 20px;
+  width: 120px;
+  height: 16px;
+  display: block;
+  margin-bottom: 20px;
+  padding: 6px;
+  font-size: 18px;
+  background: green;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+
+
+

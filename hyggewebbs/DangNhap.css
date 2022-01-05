@@ -1,0 +1,160 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    background-color: rgba(244, 247, 251, 1);
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+section .imgLogin {
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+
+section .imgLogin img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 650px;
+    height: 472px;
+    object-fit: cover;
+}
+
+section .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+section .content .form {
+    width: 70%;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-bottom: 4px solid #2436A0;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.line {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.iconDangNhap {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+
+.iconDangNhap a {
+    padding: 0px 15px;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+}
+
+.google {
+    width: 40px;
+    height: 40px;
+}
+
+.input-form {
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-bottom: 5px;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.email {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.password {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btnDangNhap {
+    flex: 1 1 auto;
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    display: flex;
+    border: none;
+    margin: auto;
+}
+
+.btnDangNhap:hover {
+    background-position: right center;
+}
+
+.btnDangKy {
+    color: #0078BD;
+    padding: 0px 20px;
+}
+
+.btnDangKy:hover {
+    color: red;
+}
+
+.nho-dang-nhap {
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.btnQuenMatKhau {
+    color: #0078BD;
+}
+
+.btnQuenMatKhau:hover {
+    color: red;
+}
