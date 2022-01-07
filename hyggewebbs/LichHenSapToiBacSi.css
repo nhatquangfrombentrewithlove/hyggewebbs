@@ -38,7 +38,7 @@ h2 {
 }
 
 .cardLichHen {
-    width: 300px;
+    width: 100%;
     height: 240px;
     background: rgba(244, 247, 251, 1);
 }
@@ -64,7 +64,7 @@ h2 {
 }
 
 .cardGhiChu {
-    width: 300px;
+    width: 100%;
     height: 250px;
     background: rgba(244, 247, 251, 1);
 }

@@ -21,6 +21,7 @@ section .imgLogin {
     position: relative;
     width: 50%;
     height: 100%;
+    margin-bottom: 50px;
 }
 
 section .imgLogin img {
@@ -157,4 +158,9 @@ h3 {
 
 .btnQuenMatKhau:hover {
     color: red;
+}
+
+iframe {
+    width: 100%;
+    border: none;
 }

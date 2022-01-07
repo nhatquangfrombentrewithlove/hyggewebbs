@@ -5,40 +5,34 @@
     <meta charset="utf-8" />
     <title>Đăng nhập</title>
     <link rel="stylesheet" type="text/css" href="DangNhap.css" />
-    <link rel="stylesheet" type="text/css" href="HeaderBacSi.css" />
+    <link rel="stylesheet" type="text/css" href="HeaderChuaDangNhap.css" />
+    <script src="https://kit.fontawesome.com/7b97764c4c.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <header>
         <div>
-            <img class="logo" src="Images/Hygge.png" alt="Hygge" />
+            <a href="#"><img class="logo" src="Images/Hygge.png" alt="Hygge" onclick="alert('Bạn cần phải làm đánh giá sức khỏe mới truy cập được mục này!')" /></a>
         </div>
 
         <nav class="nav_menu">
             <ul class="nav_menu">
-                <li><a href="#">Bệnh nhân</a></li>
-                <li><a href="#">Danh sách phát</a></li>
-                <li><a href="#">Blog chia sẻ</a></li>
+                <li><a href="#" onclick="alert('Bạn cần phải đăng nhập mới truy cập được mục này!')">Bệnh nhân</a></li>
+                <li><a href="#" onclick="alert('Bạn cần phải đăng nhập mới truy cập được mục này!')">Danh sách phát</a></li>
+                <li><a href="#" onclick="alert('Bạn cần phải đăng nhập mới truy cập được mục này!')">Blog chia sẻ</a></li>
             </ul>
         </nav>
 
-        <div class="nav_links">
-            <ul>
-                <li>
-                    <a><img class="noti" src="Images/notification.png" /></a>
-                </li>
-                <li>
-                    <a><img class="support" src="Images/headphone.png" /></a>
-                </li>
-                <li>
-                    <a><img class="profile" src="Images/user.png" /></a>
-                </li>
+        <div class="button">
+            <ul class="nav_links">
+                <li><a href="DangNhapBacSi.html" class="btnDangNhapHeader"><u>Đăng nhập</u></a></li>
+                <li><a href="#" class="btnDangKyHeader" onclick="alert('Vui lòng gọi đến Hotline 0123456789 hoặc Email hygge@gmail.com để được hướng dẫn!')">Đăng ký</a></li>
             </ul>
         </div>
     </header>
-    <section>
 
+    <section>
         <div class="imgLogin">
             <img src="Images/login.jpg" alt="Hình Ảnh Minh Họa">
         </div>
@@ -52,8 +46,8 @@
                 <h3>Đăng nhập với</h3>
 
                 <div class="iconDangNhap" align="center">
-                    <a href="HomeBenhNhan2.html"><img class="facebook" src="Images/facebook.png" /></a>
-                    <a href="HomeBenhNhan2.html"><img class="google" src="Images/google.png" /></a>
+                    <a href="HomeBacSi.html"><img class="facebook" src="Images/facebook.png" /></a>
+                    <a href="HomeBacSi.html"><img class="google" src="Images/google.png" /></a>
                 </div>
 
 
@@ -77,24 +71,24 @@
 
                     <div class="nho-dang-nhap">
                         <label><input type="checkbox"/>Ghi nhớ đăng nhập </label>
-                        <a align="right" href="QuenMatKhau.html" class="btnQuenMatKhau">Quên mật khẩu</a>
+                        <a align="right" href="QuenMatKhauBacSi.html" class="btnQuenMatKhau">Quên mật khẩu</a>
                     </div>
 
 
                     <div class="input-form">
-                        <input class="btnDangNhap" type="submit" value="Đăng Nhập" onclick="location.href='HomeBenhNhan2.html'">
+                        <input class="btnDangNhap" type="submit" value="Đăng Nhập" onclick="location.href='HomeBacSi.html'">
                     </div>
 
                     <div class="input-form">
-                        <p>Người dùng mới tại Hygge?<a href="DangKy.html" class="btnDangKy">Đăng Ký</a></p>
+                        <p>Trở thành bác sĩ trị liệu tại Hygge?<a onclick="alert('Vui lòng gọi đến Hotline 0123456789 hoặc Email hygge@gmail.com để được hướng dẫn!')" class="btnDangKy">Liên hệ ngay</a></p>
                     </div>
-
                 </form>
-
             </div>
         </div>
-
     </section>
+
+    <iframe scrolling="no" height="300px" style="margin-top: 20px" src="Footer.html"></iframe>
+
 </body>
 
 </html>

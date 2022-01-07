@@ -15,7 +15,7 @@ body {
 
 
 .containerLeft {
-  width: 30%;
+  width: 25%;
   background-color: white;
   margin: 40px;
 }
@@ -26,11 +26,19 @@ body {
 }
 
 .tieuDedivLichHen {
-  padding:10px; 
+  padding:5px; 
   display: flex;
   justify-content: space-between;
   text-align: center;
-  
+  background-color: rgba(244, 247, 251, 1);
+}
+
+.clickDropdown2{
+  padding: 5px; 
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 .icon1 {
@@ -42,10 +50,18 @@ body {
   padding: 10px;
 }
 
+.icon3 {
+  size: 32px;
+  padding: 10px;
+}
+.icon4 {
+  size: 32px;
+  padding: 10px;
+}
+
 .tieuDedivLichHen > h2 {
   font-size: 20px;
   font-weight: 600;
-  padding: 10px;
   font-weight: 700;
   cursor: pointer;
   
@@ -56,6 +72,7 @@ body {
   border-top: 1px solid royalblue;
   cursor: pointer;
   padding: 15px;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 .child-dropdown > img {
@@ -67,6 +84,7 @@ body {
   margin-right: 20px;
   position: relative;
   margin-left: 10px;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 .queue-cover {
@@ -115,12 +133,14 @@ body {
   size: 18px;
   color: rgba(0, 0, 0, 0.6);
   font-weight: 400;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 .child-dropdown > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 
@@ -135,12 +155,35 @@ body {
   display: flex;
 }
 
+#container1{
+  display: none;
+  background-color: rgba(244, 247, 251, 1);
+}
+
 
 .containerRight {
-  width: 58%;
+  width: 65%;
   border: 2px solid black;
-  margin: 40px;
+  margin-top: 40px;
   border-radius: 10px;
+  height: 630px;
+  background-color: rgba(244, 247, 251, 1);
+}
+
+.containerRight2 {
+  width: 65%;
+  border: 2px solid black;
+  margin-top: 40px;
+  margin-right: 20PX;
+  border-radius: 10px;
+  height: 700px;
+  background-color: rgba(244, 247, 251, 1);
+}
+
+.containerRight2 > div > img{
+  max-width: 100%;
+  width: 80px;
+  padding: 30px;
 }
 
 .canGiua {
@@ -163,16 +206,37 @@ body {
 .thongTinBenhNhan {
   display: flex;
   justify-content: space-around;
-  margin: 15px;
+  margin: 25px;
 }
+
 
 .thongTinBenhNhan > div > p {
   padding: 5px;
 }
 
+.thongTinBenhNhan1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thongTinBenhNhan1 img{
+  width: auto;
+  height: auto;
+  box-sizing: content-box;
+}
+
+.thongTinBenhNhan1 > div > p {
+  padding: 1px;
+}
 
 .thoiGian > p {
   padding: 4px;
+}
+
+.thoiGian img{
+  box-sizing: content-box;
+  height: auto;
+  width: auto;
 }
 
 .ghiChu {
@@ -183,24 +247,63 @@ body {
   padding: 6px;
 }
 
+.ghiChu1{
+  margin: 20px;
+  border: 1px solid black;
+  height: 70px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
 .btn {
   display: flex;
   justify-content: end;
-
 }
-.btn > button {
+.btn1{
+  display: flex;
+  justify-content: end;
+}
+.btn1 > button{
   margin-right: 20px;
-  width: 120px;
-  height: 16px;
+  width: auto;
   display: block;
   margin-bottom: 20px;
   padding: 6px;
   font-size: 18px;
-  background: green;
+  background:linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
   border: none;
   border-radius: 6px;
   color: white;
   font-size: 14px;
+}
+.btn > button {
+  margin-right: 20px;
+  width: 90px;
+  display: block;
+  margin-bottom: 20px;
+  padding: 6px;
+  font-size: 18px;
+  background:linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
+}
+.btn > button:hover{
+  background-position: right center;
+}
+
+#benhNhan {
+  border: 3px solid rgba(6, 115, 240, 0.2);
+  border-radius: 10px;
+}
+
+.child-down2 {
+  display: flex;
+  border-top: 1px solid royalblue;
+  cursor: pointer;
+  padding: 15px;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 

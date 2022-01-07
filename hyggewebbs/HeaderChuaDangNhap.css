@@ -3,8 +3,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
 }
+
 section {
     font-family: Roboto;
     font-size: 16px;
@@ -32,24 +32,25 @@ header {
     width: 72px;
     height: 50px;
     margin-left: 50px;
+    margin-right: 10px;
 }
 
 .nav_menu {
     list-style: none;
-    margin-left: 20px;
+    margin-right: auto;
 }
 
-    .nav_menu li {
-        display: inline-block;
-        padding: 0px 28px;
-        text-decoration: none;
-        color: black;
-    }
-
+.nav_menu li {
+    display: inline;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: black;
+}
 
 .button {
     margin-left: auto;
 }
+
 .nav_menu li a {
     border-top: 4px solid rgba(244, 247, 251, 1);
     border-bottom: 4px solid rgba(244, 247, 251, 1);
@@ -61,22 +62,16 @@ header {
     border-top: 4px solid #2436A0;
     border-bottom: 4px solid #2436A0;
     padding: 6px 0px;
-
 }
 
 .nav_links {
     list-style: none;
-
-   
-    
-
     margin-left: auto;
-
 }
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 16px;
+    padding: 0px 8px;
 }
 
 .btnDangKyHeader {

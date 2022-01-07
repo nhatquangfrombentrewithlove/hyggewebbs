@@ -54,12 +54,16 @@ h2 {
     object-fit: cover;
 }
 
+.description {
+    width: 15%;
+}
+
 .description a {
     font-size: 13px;
 }
 
 .rating-stars {
-    font-size: 25px;
+    font-size: 18px;
     color: #CCCCCC;
 }
 
@@ -70,6 +74,7 @@ h2 {
 .vl {
     border-left: 1px solid #0078BD;
     height: 80px;
+    left: 50%;
     margin-left: 20px;
     margin-right: 20px;
 }

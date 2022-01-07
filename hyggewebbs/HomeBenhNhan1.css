@@ -1,16 +1,10 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
     font-weight: 500;
-}
-
-section
-{
-    
 }
 
 marquee {
@@ -60,10 +54,9 @@ h3 {
     margin: auto;
 }
 
-    .btnDatLich:hover {
-        background-position: right center;
-    }
-
+.btnDatLich:hover {
+    background-position: right center;
+}
 
 .DanhSachPhatDangNghe {
     margin-top: 10px;
@@ -76,22 +69,15 @@ h3 {
     text-align: center;
 }
 
-    .btnXemThem:hover {
-        color: red;
-    }
+.btnXemThem:hover {
+    color: red;
+}
 
-    iframe{
-        width: 100%;
-        border: none;
-
-    }
-
+iframe {
+    width: 100%;
+    border: none;
+}
 
 .container {
     background-color: rgba(244, 247, 251, 1);
-}
-
-
-.Footer {
- 
 }
