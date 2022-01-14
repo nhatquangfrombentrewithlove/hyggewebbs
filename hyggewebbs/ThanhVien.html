@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Đội ngũ sáng lập</title>
+    <link rel="stylesheet" type="text/css" href="ThanhVien.css" />
+    <script>
+        var dstv = {
+            "ThanhVien": [{
+                    "HinhAnh": "Images/PhatDat.png",
+                    "HoVaTen": "Nguyễn Phát Đạt",
+                    "MSSV": "K194111529"
+                },
+
+                {
+                    "HinhAnh": "Images/PhanGiang.jpg",
+                    "HoVaTen": "Phan Thị Hà Giang",
+                    "MSSV": "K194111532"
+                },
+
+                {
+                    "HinhAnh": "Images/ThuNgan.jpg",
+                    "HoVaTen": "Võ Thị Thu Ngân",
+                    "MSSV": "K194111553"
+                },
+
+                {
+                    "HinhAnh": "Images/NhatQuang.jpg",
+                    "HoVaTen": "Huỳnh Nhật Quang",
+                    "MSSV": "K194111561"
+                },
+
+                {
+                    "HinhAnh": "Images/ThuyTam.jpg",
+                    "HoVaTen": "Phan Thị Thúy Tâm",
+                    "MSSV": "K194111567"
+                }
+            ]
+        }
+    </script>
+</head>
+
+<body>
+    <div class="ThanhVien">
+        <h2>Đội ngũ sáng lập</h2>
+
+        <div id="thanhvien">
+
+
+        </div>
+    </div>
+
+
+    <script>
+        var table = "<table><tr>"
+        for (var i = 0; i < dstv.ThanhVien.length; i++) {
+            var tv = dstv.ThanhVien[i];
+            var td = "<td>" +
+                "<div class='cardThanhVien'>" +
+                "<img class='imgThanhVien' src='" + tv.HinhAnh + "'/>" +
+                "<p class='content'>" + tv.HoVaTen + "<br/>" + tv.MSSV + "</p>" +
+                "</div>" +
+                "</td>"
+            table += td
+        }
+        table += "</tr></table>"
+        var div = document.getElementById("thanhvien")
+        div.innerHTML = table
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Thanhviens>
+  <ThanhVien id="1">
+    <HoVaTen>Nguyễn Phát Đạt</HoVaTen>
+    <MSSV>K194111529</MSSV>
+    <Anh>Images/PhatDat.png</Anh>
+  </ThanhVien>
+
+  <ThanhVien id="2">
+    <HoVaTen>Phan Thị Hà Giang</HoVaTen>
+    <MSSV>K194111532</MSSV>
+    <Anh>Images/PhanGiang.jpg</Anh>
+  </ThanhVien>
+
+  <ThanhVien id="3">
+    <HoVaTen>Võ Thị Thu Ngân</HoVaTen>
+    <MSSV>K194111553</MSSV>
+    <Anh>Images/ThuNgan.jpg</Anh>
+  </ThanhVien>
+
+  <ThanhVien id="4">
+    <HoVaTen>Huỳnh Nhật Quang</HoVaTen>
+    <MSSV>K194111561</MSSV>
+    <Anh>Images/NhatQuang.jpg</Anh>
+  </ThanhVien>
+
+  <ThanhVien id="5">
+    <HoVaTen>Phan Thị Thúy Tâm</HoVaTen>
+    <MSSV>K194111567</MSSV>
+    <Anh>Images/ThuyTam.jpg</Anh>
+  </ThanhVien>
+</Thanhviens>
